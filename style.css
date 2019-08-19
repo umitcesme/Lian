@@ -1,0 +1,365 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    -webkit-box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+    -moz-box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+    box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+}
+
+.header{
+    padding: 10px 0;
+}
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding-top: 5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li a{
+    padding-right: 20px;
+    color: #777777;
+}
+.footer{
+    background-image: url(images/base.png);
+    background-size: cover;
+    padding: 50px 0;
+    margin-top: -8px;
+    width: 100%;
+    position: relative;
+}
+.footer-image img{
+    position: absolute;
+    left: 48%;
+    top: 15%;
+}
+.social-image{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+.social-image i {
+    padding: 0 30px;
+}
+.text-area h6{
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0;
+    position: absolute;
+    top: 100%;
+    left: 38%;
+}
+                                                           /* HEADER AND FOOTER FİNİSH */
+
+.slider{
+    background-image: url(images/slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.slogan h1{
+    font-size: 38px;
+    font-weight: 300;
+    color: #000000;
+    position: absolute;
+    top: 35%;
+}
+.slider p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+}
+.section-content{
+    background: #fafafa;
+    padding-bottom: 120px;
+}
+.content-header{
+    padding: 25px 0;
+}
+.menu-area{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 195px;
+}
+.content img{
+    width: 100%;
+    padding: 15px 0;
+}
+                                                             /* index finish */
+.about{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.about-text{
+    padding-top: 125px;
+}
+.about-title{
+    background: #000000;
+    width: 50%;
+}
+.about-title h1{
+    color: aliceblue;
+    font-weight: 300;
+    padding: 0 20px;
+    font-size: 35px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.about-content{
+    background: #fafafa;
+}
+.content{
+    padding: 50px 0;
+}
+.content img{
+    width: 100%;
+}
+.content h4{
+    padding-top: 10px;
+    font-weight: 300;
+}
+.content p{
+    color: #979797;
+}
+.team{
+    padding-bottom: 70px;
+}
+.team-content{
+    padding-top: 50px;
+    background: #fafafa;
+}
+.team-title h4{
+    text-align: center;
+    font-weight: 300;
+}
+.team-title p{
+    text-align: center;
+    padding: 20px 0;
+}
+.team-text{
+    padding: 10px 7px;
+    background: #ffffff;
+}
+.team-text p{
+    color: #9c9c9c;
+    font-size: 12px;
+}
+.team img{
+    width: 100%;
+}
+                                                               /* portfolio başlangıç */
+.portfolio{
+    background-image: url(images/port.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+                                                                    /* details */
+.details{
+    background-image: url(images/port.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.details-header h2{
+    font-weight: 300;
+}
+.details-content{
+    padding: 75px 0;
+    background: #fafafa;
+}
+.details-text{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 0;
+}
+.project-text{
+    padding-top: 25px;
+}
+.details-content img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.details-title{
+    padding: 75px 0;
+}
+.details-title h3{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.details-title p{
+    text-align: center;
+    color: #777777;
+}
+                                                                /* contact bölümü */
+.contact{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.contact-header h2{
+    font-weight: 300;
+    letter-spacing: 13px;
+}
+.contact-content{
+    padding: 75px 0;
+    background: #fafafa;
+}
+.contact-content img{
+    width: 100%;
+}
+.contact-text p{
+    font-weight: 700;
+}
+.maps{
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.map-text{
+    background: #ffffff;
+    width: 40%;
+    height: 10%;
+}
+.map-text h5{
+    text-align: center;
+    padding-top: 5px;
+}
+.map-text p{
+    text-align: center;
+}
+                                                                    /* blog bölümü */
+
+.blog{
+    background-image: url(images/xx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.blog-text{
+    padding-top: 125px;
+}
+.blog-title{
+    background: #000000;
+    width: 50%;
+}
+.blog-title h1{
+    color: aliceblue;
+    font-weight: 300;
+    padding: 0 20px;
+    font-size: 35px;
+}
+.blog p{
+    font-size: 18px;
+    font-weight: 200;
+}   
+.blog-content{
+    background: #fafafa;
+}       
+.content-one{
+    background: #ffffff;
+    margin: 50px 0;
+    padding: 40px 10px;
+}  
+.content-one h5{
+    background: #000000;
+    color: #ffffff;
+    width: 36%;
+}       
+.content-two{
+    margin: 50px 0;
+}    
+.content-text{
+    background: #ffffff;
+    padding: 40px 10px;
+}       
+.content-text h6{
+    padding: 15px 0;
+}   
+.content-theree{
+    background: #232323;
+    margin: 50px 0;
+    padding: 40px 10px;
+}    
+.content-theree h4{
+    color: #ffffff;
+}                  
+.content-theree h5{
+    color: #ffffff;
+}   
+.content-theree p{
+    color: #ffffff;
+}
+.search-area{
+    margin: 50px 0;
+}
+.post-area h5{
+    text-align: center;
+    padding: 15px 0;
+    background: #ebebeb;
+    letter-spacing: 7px;
+}
+.post-one{
+    padding: 10px 0;
+}
+.tag-area h5{
+    text-align: center;
+    padding: 15px 0;
+    background: #ebebeb;
+    letter-spacing: 7px;
+}
+.instagram h5{
+    text-align: center;
+    padding: 15px 0;
+    background: #ebebeb;
+    letter-spacing: 7px;
+}
+/* POST BÖLÜMÜ */
+.post{
+    background: #fafafa;
+}
+.post-title{
+    padding: 40px 0;
+}
+.post-title h3{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+.post img{
+    padding-left: 70px;
+}
+.form-title{
+    padding: 40px 0;
+}
+.form-title h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.form-chapter img{
+    width: 90%;
+}
